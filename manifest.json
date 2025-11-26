@@ -1,0 +1,35 @@
+{
+  "short_name": "PWAAPP",
+  "name": "PWAAPP",
+  "description": "A Progressive Web App for managing everything.",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/screen1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Main dashboard view"
+    },
+    {
+      "src": "/screenshots/screen2.png",
+      "sizes": "2074x1280",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Mobile view"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#FFFFFF",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "en-US"
+}

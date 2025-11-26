@@ -1,0 +1,46 @@
+.tarjeta {
+    background-color: #ebebeb;
+    height: auto;
+    width: 300px;
+    display: grid;
+    box-shadow: 1px 1px 10px 0px;
+    padding: 3%;
+    margin-bottom: 10px;
+}
+
+.forma {
+    display: grid;
+    margin: 25px;
+}
+
+input {
+    height: 30px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.nuevo {
+    margin-top: 5%;
+}
+
+button {
+    border: none;
+    height: 40px;
+    background-color: #2a4ff5;
+    border-radius: 5px;
+    color: #ebebeb;
+}
+
+#salir {
+    background-color: #f64242;
+    float: right;
+    display: flex;
+    padding-top: 10px;
+}
+
+.prueba {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
